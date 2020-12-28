@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(NA___Zadaca3)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(NA___Zadaca3 main.cpp AbstractInterpolator/AbstractInterpolator.cpp AbstractInterpolator/AbstractInterpolator.h LinearInterpolator/LinearInterpolator.cpp LinearInterpolator/LinearInterpolator.h PolynomialInterpolator/PolynomialInterpolator.cpp PolynomialInterpolator/PolynomialInterpolator.h)
